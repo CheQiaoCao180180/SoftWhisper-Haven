@@ -1,0 +1,131 @@
+using System;
+using System.IO;
+using System.Linq;
+using System.Text.Json;
+
+namespace FishPet;
+
+// What is kept between starts, in settings.json beside the plugin. Only the agent changes it (the tools
+// in Control.cs); there is no settings window.
+internal sealed class Settings
+{
+    public string Shape { get; set; } = "small";
+    // 本机加（2026-11-17）：换角色用——model3.json 的相对路径（相对插件的 model 目录）；空 = 用默认那个
+    public string ModelPath { get; set; } = "";
+        // 本机加（2026-11-17）：五个全局热键，写成 "Ctrl+Alt+X" 这样；空就用默认
+        public string HotkeyShape { get; set; } = Hotkeys.DefaultShape;
+        public string HotkeyPersona { get; set; } = Hotkeys.DefaultPersona;
+        public string HotkeyGlasses { get; set; } = Hotkeys.DefaultGlasses;
+        public string HotkeyShoes { get; set; } = Hotkeys.DefaultShoes;
+        public string HotkeySkirt { get; set; } = Hotkeys.DefaultSkirt;
+        public string HotkeyChat { get; set; } = Hotkeys.DefaultChat;
+        // 本机加（2026-11-17）：台词语言。zh 读根目录，en / ja 读 lang\ 下的同名文件
+        public string Language { get; set; } = "zh";
+        // 本机加（2026-11-18）：连点几次就道别。上半身和下半身各数各的。
+        public int QuitTaps { get; set; } = 3;
+        // 本机加（2026-11-18）：她怎么叫你。台词里写 {称呼} 的地方会被换成这个。
+        public string CallMe { get; set; } = "主人";
+
+    public string[] Outfit { get; set; } = [];
+    public int Fps { get; set; } = 60;
+    public double Scale { get; set; } = 1;
+    // 立绘清晰度：贴图缩放档位（1 = 高清 4096 原图、0.5 = 标准、0.25 = 流畅）。改档位要重启渲染器才生效。
+    public double TexScale { get; set; } = 0.5;
+    // Her speech bubble, words and all, apart from her own size.
+    public double BubbleScale { get; set; } = 1;
+    // How long the bubble stays after her last word: 0 by how much she said (5 to 20 s), -1 until her next line or a click.
+    public int BubbleSeconds { get; set; }
+    // Out of the way while something else fills the screen, drawing nothing meanwhile (as the BigBlueFish pet does).
+    public bool HideOnFullscreen { get; set; } = true;
+    // Whether she looks on GitHub for a newer plugin when she starts and twice a day (Updates).
+    public bool CheckUpdates { get; set; } = false;
+    public bool FollowMouse { get; set; } = true;
+    // 小剧场演出期间暂时关掉视线跟随鼠标（演完自动恢复）；在 settings.json 里改，不进 update_settings。（本机加，2026-11-06）
+    public bool SkitPausesFollow { get; set; } = true;
+    // 只有这些音乐软件在出声才跟着跳（进程名，逗号分隔；2026-11-10 用户要的白名单）
+    public string MusicApps { get; set; } = "cloudmusic,qqmusic,qqmusicclient,spotify,applemusic,itunes,music,kugou,kuwo,qishui,musicbee,foobar2000,aimp";
+    // 听到电脑在放音乐就跟着跳（本机加，2026-11-10）：在 settings.json 里改成 false 就只放歌不跳舞。
+    public bool MusicDance { get; set; } = true;
+    // 启动时先收着：桌宠程序在运行，但她不露面，等用户叫她（show / say / coax）才出场。
+    public bool StartHidden { get; set; }
+    // 拖到屏幕边上会弹回来，脸始终留在工作区里。默认关：能拖出屏幕，只留一小截在外面能拖回来。
+    public bool KeepOnScreen { get; set; } = false;
+    // Seconds between the small things she does by herself when nobody talks to her.
+    public int IdleSeconds { get; set; } = 300;
+    // 到点叫人（本机加，2026-11-08）：按这台电脑的时钟，00:30 起四层哄睡、11:30 午饭提醒。默认关，托盘“更多”里能开。
+    public bool CoaxSleep { get; set; } = false;
+    public bool CoaxLunch { get; set; } = false;
+    // 用户的生日（MM-dd，比如 10-21）：那天她会说生日快乐、演生日小剧场（mutter.txt、skits.txt 里写着 @生日 的）。空着就没有。
+    public string Birthday { get; set; } = "";
+    // 待机自言自语：桌宠自己调大模型现编嘀咕。
+    public string LlmApiKey { get; set; } = "";
+    public string LlmBaseUrl { get; set; } = "https://api.deepseek.com";
+    public string LlmModel { get; set; } = "deepseek-chat";
+    // 人设（本机加，2026-11-15）：十种，见 Personas.cs；只影响现编台词的口吻和念出来的音色
+    public string Persona { get; set; } = "傲娇";
+    // 念出来（本机加，2026-11-15）：用 Windows 自带中文语音朗读台词，默认关
+    public bool Speech { get; set; }
+    // 朗读音量 0–1
+    public double SpeechVolume { get; set; } = 0.85;
+    // 跟着 DSH 的人设走（本机加，2026-11-15）：读 persona-switcher 的会话状态，最近切换的那个角色映射过来
+    public bool PersonaFollowsHarness { get; set; } = true;
+    public string PersonaStateFile { get; set; } = "";
+    public double MutterChance { get; set; } = 0.5;
+    // 第一次真正出场的欢迎说过没有（Welcome.cs、welcome.txt）。默认 true：已经有 settings.json 的老用户不补说；
+    // 只有全新安装（没有 settings.json）才在 Load 里设成 false。
+    public bool Welcomed { get; set; } = true;
+    // 第一次启动的引导窗弹过没有（FirstRun.cs）。默认 true：老用户不补弹；只有全新安装才在 Load 里设成 false。
+    public bool Guided { get; set; } = true;
+    public double? Left { get; set; }
+    public double? Top { get; set; }
+
+    internal static readonly int[] FpsChoices = [30, 60, 90, 120];
+    private static readonly JsonSerializerOptions Format = new() { WriteIndented = true };
+
+    internal static Settings Load()
+    {
+        try
+        {
+            if (File.Exists(Places.SettingsFile) && JsonSerializer.Deserialize<Settings>(File.ReadAllText(Places.SettingsFile)) is { } loaded)
+                return loaded.Checked();
+        }
+        catch (Exception error)
+        {
+            Places.Log("设置读不出来，用默认的：" + error.Message);
+            // 读坏的原件留一份，不然下一次存盘就把它盖掉了（里面可能有 LLM key，还有别的设置）
+            try { File.Copy(Places.SettingsFile, Places.SettingsFile + ".bad", overwrite: true); } catch { }
+        }
+        // 没有设置文件：全新安装（或读坏了，读坏的走上面的 catch，不算新装）。新装的第一次出场要说欢迎
+        return new Settings { Welcomed = !Welcome.Pending(File.Exists(Places.SettingsFile)), Guided = File.Exists(Places.SettingsFile) };
+    }
+
+    internal Settings Checked()
+    {
+        Shape = FishPet.Shape.Find(Shape).Id;
+        Outfit = (Outfit ?? []).Where(item => FishPet.Outfit.Expression(item) != null).Select(item => FishPet.Outfit.Expression(item)!).Distinct().ToArray();
+        if (!FpsChoices.Contains(Fps)) Fps = 60;
+        Scale = Math.Clamp(double.IsFinite(Scale) ? Scale : 1, .5, 2);
+        TexScale = TexScale >= 1 ? 1 : TexScale >= 0.5 ? 0.5 : 0.25;
+        BubbleScale = Math.Clamp(double.IsFinite(BubbleScale) && BubbleScale > 0 ? BubbleScale : 1, .5, 2);
+        MusicApps = (MusicApps ?? "").Trim();
+        BubbleSeconds = StayFor(BubbleSeconds);
+        IdleSeconds = Math.Clamp(IdleSeconds, 15, 600);
+        Birthday = Condition.NormalBirthday(Birthday) ?? "";
+        MutterChance = Math.Clamp(double.IsFinite(MutterChance) ? MutterChance : 0.5, 0, 1);
+        return this;
+    }
+
+    internal static int StayFor(int seconds) => seconds is -1 or 0 ? seconds : Math.Clamp(seconds, 5, 180);
+
+    internal void Save()
+    {
+        try
+        {
+            // 先写临时文件再换过去：写到一半被杀进程、断电，也不会留下半截 settings.json（里面有 LLM key）
+            var temp = Places.SettingsFile + ".tmp";
+            File.WriteAllText(temp, JsonSerializer.Serialize(this, Format));
+            File.Move(temp, Places.SettingsFile, overwrite: true);
+        }
+        catch (Exception error) { Places.Log("设置存不下来：" + error.Message); }
+    }
+}

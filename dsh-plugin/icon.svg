@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7EA8FF"/>
+      <stop offset="100%" stop-color="#3D5FC4"/>
+    </linearGradient>
+  </defs>
+  <!-- 身子 -->
+  <path d="M12 32c0-9 8-15 18-15s17 6 17 15-7 15-17 15-18-6-18-15z" fill="url(#body)"/>
+  <!-- 尾巴 -->
+  <path d="M44 32c4-5 8-8 10-8 1 0 2 1 2 2 0 3-3 6-6 6 3 0 6 3 6 6 0 1-1 2-2 2-2 0-6-3-10-8z" fill="#2E4BA8"/>
+  <!-- 肚皮 -->
+  <path d="M16 34c0 6 6 10 14 10s14-4 14-10-6-8-14-8-14 2-14 8z" fill="#D9E6FF" opacity=".85"/>
+  <!-- 眼睛 -->
+  <circle cx="25" cy="29" r="2.4" fill="#16224A"/>
+  <circle cx="36" cy="29" r="2.4" fill="#16224A"/>
+  <circle cx="25.8" cy="28.2" r=".8" fill="#fff"/>
+  <circle cx="36.8" cy="28.2" r=".8" fill="#fff"/>
+  <!-- 头顶的喷气孔 -->
+  <path d="M30 14c0-3 1-5 2-5s2 2 2 5" fill="none" stroke="#9EC0FF" stroke-width="2" stroke-linecap="round"/>
+  <!-- 腮红 -->
+  <ellipse cx="20.5" cy="35" rx="3" ry="1.8" fill="#FF9EC4" opacity=".55"/>
+  <ellipse cx="40.5" cy="35" rx="3" ry="1.8" fill="#FF9EC4" opacity=".55"/>
+</svg>

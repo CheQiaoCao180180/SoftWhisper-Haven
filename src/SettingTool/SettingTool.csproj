@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Version>1.0.0.2</Version>
+    <FileVersion>1.0.0.2</FileVersion>
+    <AssemblyVersion>1.0.0.2</AssemblyVersion>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>大肥鱼设置</AssemblyName>
+    <RootNamespace>SettingTool</RootNamespace>
+    <ApplicationIcon>..\..\tools\大肥鱼设置.ico</ApplicationIcon>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <!-- WFO1000：自定义控件的属性不需要设计器序列化（这些控件都是代码里建出来的） -->
+    <NoWarn>$(NoWarn);WFO1000</NoWarn>
+    <!-- 本机改（2026-11-17）：这台是 125% 缩放的屏，PerMonitorV2 让窗口在缩放屏之间移动时
+         文字始终按当前屏 DPI 重绘（不会糊），窗口本身仍是 960×700。 -->
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- 本机改（2026-11-17）：NAudio 元包必须留着——Mp3FileReader / AudioFileReader 在主包里，
+         音乐页要用。但 Midi / Asio / WinForms 三个子包设置工具一次都没用到，
+         ExcludeAssets="all" 让它们不进单文件包，能省一百多 KB。 -->
+    <PackageReference Include="NAudio" Version="2.2.1" />
+    <PackageReference Include="NAudio.Midi" Version="2.2.1" ExcludeAssets="all" />
+    <PackageReference Include="NAudio.Asio" Version="2.2.1" ExcludeAssets="all" />
+    <PackageReference Include="NAudio.WinForms" Version="2.2.1" ExcludeAssets="all" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- 本机加（2026-11-17）：图标嵌进程序里，桌面就不用再放一个 .ico 文件 -->
+    <EmbeddedResource Include="..\..\tools\大肥鱼设置.ico" LogicalName="SettingTool.AppIcon.ico" />
+  </ItemGroup>
+</Project>
+
+

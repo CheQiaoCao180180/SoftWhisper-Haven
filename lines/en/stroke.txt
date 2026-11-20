@@ -1,0 +1,141 @@
+// 英文（2026-11-18 翻）：右键抚摸的台词。格式和中文一致：键|台词|条件
+抚摸头1|Eh? You're stopping already?
+抚摸头1|Huh? That's it?
+抚摸头1|Y-you petted me for one second...
+抚摸头1|Boss, your hand's already gone...
+抚摸头1|You could pat me a little longer...|亲密3
+抚摸头1|Just once? I didn't even react
+抚摸头1|Come back here, hand...
+抚摸头2|D-don't pull your hand away so fast...
+抚摸头2|A little more... please...
+抚摸头2|Boss's hand leaves and my head feels so empty...
+抚摸头2|Don't go. Keep patting
+抚摸头2|M-my face is all red... one more?|亲密3
+抚摸头2|Mm... two more and I'll let you go
+抚摸头2|My head's all warm now. Feels nice
+抚摸头3|Boss... don't take your hand away yet...
+抚摸头3|More. Please...
+抚摸头3|You've petted me all soft, so you're responsible...|亲密3
+抚摸头3|Don't go. Stay a bit longer...|亲密3
+抚摸头3|Boss's hand feels so good... I'm not moving today|亲密4
+抚摸头3|I like boss the most... keep patting|亲密5
+抚摸头3|Don't leave. I'm not full yet
+抚摸头3|At this rate I'll turn into a clingy fish...|亲密3
+抚摸头4|I feel like...〔慢慢转头 笑眼〕my head's going all fuzzy~
+抚摸头4|Ah... petted this long, 〔瞟一眼〕and it's still not enough?〔笑眼〕
+抚摸头4|Keep this up and 〔嘟嘴 微摇头 ＞＜〕I'll get kneaded into a fish ball~
+抚摸头4|Hehe...〔闭眼 大笑 晃头〕hehehe...
+抚摸头4|Boss...〔挑眉 微笑〕you really don't give up, huh♡〔快眨单眼〕
+抚摸头5|Hehe...〔闭眼 大笑 晃头〕heh〔-闭眼 笑眼 爱心眼〕heh...
+病娇.抚摸头1|(rubs her cheek into your palm)
+病娇.抚摸头1|Pet me a little longer
+病娇.抚摸头2|Pet me like that and I won't be able to sleep
+病娇.抚摸头2|(peeks at you through half-closed eyes)
+病娇.抚摸头3|...Only pet me
+病娇.抚摸头3|(tilts her hair toward you)
+病娇.抚摸头4|Don't move your hand
+病娇.抚摸头4|(gently bites your fingertip)
+病娇.抚摸头5|Are you done... if not, keep going
+病娇.抚摸头5|(leans her whole body in)
+人妻.抚摸头1|(closes her eyes and lets you pet)
+人妻.抚摸头1|You've worked hard. Take your time
+人妻.抚摸头2|My hair's a mess, right? Let me fix it
+人妻.抚摸头2|(lowers her head a little)
+人妻.抚摸头3|This feels nice
+人妻.抚摸头3|(lets out a soft sigh)
+人妻.抚摸头4|Your hand is warm. That's lovely
+人妻.抚摸头4|(leans into your palm)
+人妻.抚摸头5|You can pet me a little longer
+人妻.抚摸头5|(goes quiet)
+傲娇.抚摸头1|I-it's not like I hate it
+傲娇.抚摸头1|(acts tough but doesn't pull away)
+傲娇.抚摸头2|Are you done yet
+傲娇.抚摸头2|(ears are a little red)
+傲娇.抚摸头3|I'm not a kitten
+傲娇.抚摸头3|(but her tail is wagging)
+傲娇.抚摸头4|...Your technique isn't bad
+傲娇.抚摸头4|(quietly) Do that next time too
+傲娇.抚摸头5|Don't tell anyone
+傲娇.抚摸头5|(buries her face)
+童真.抚摸头1|Hehehe
+童真.抚摸头1|(head bobbing along with your hand)
+童真.抚摸头2|More, more!
+童真.抚摸头2|(pushes her head over)
+童真.抚摸头3|Feels so good
+童真.抚摸头3|(eyes squeezed into slits)
+童真.抚摸头4|Will you keep petting me?
+童真.抚摸头4|(asks with her head tilted up)
+童真.抚摸头5|I'm gonna fall asleep...
+童真.抚摸头5|(gives a tiny yawn)
+幼童.抚摸头1|Huh? You only petted once and left?
+幼童.抚摸头1|Again, again!
+幼童.抚摸头1|Don't go, hand~
+幼童.抚摸头2|Hehe... feels nice
+幼童.抚摸头2|A bit longer. I won't move
+幼童.抚摸头2|Your hand's so warm
+幼童.抚摸头3|Don't stop...
+幼童.抚摸头3|I'll fall asleep if you keep going...
+幼童.抚摸头3|Just a little longer. Just a little
+傲娇.抚摸头1|Just one pat? That's so half-hearted
+傲娇.抚摸头1|...Who said you could stop
+傲娇.抚摸头1|W-why did you move your hand
+傲娇.抚摸头2|D-don't get the wrong idea. It's not that I want more
+傲娇.抚摸头2|...One more's fine, I guess
+傲娇.抚摸头2|W-who said it felt good (quietly)
+傲娇.抚摸头3|Don't go... stay a bit longer
+傲娇.抚摸头3|Just this once. Pet me all you want
+傲娇.抚摸头3|(says nothing, just doesn't pull away)
+病娇.抚摸头1|Only one pat? I thought it'd be longer
+病娇.抚摸头1|Where did your hand go
+病娇.抚摸头1|Do it again. I'm not satisfied
+病娇.抚摸头2|Keep petting like that and I won't be able to let you go
+病娇.抚摸头2|Your hand... it can only rest here
+病娇.抚摸头2|Longer. Longer
+病娇.抚摸头3|Don't stop. I'm not done wanting
+病娇.抚摸头3|Keep this up and I'm yours forever
+病娇.抚摸头3|Leave your hand. You can stay too
+人妻.抚摸头1|Leaving so soon
+人妻.抚摸头1|Did your hand get something on it
+人妻.抚摸头1|Wash your hands after, okay
+人妻.抚摸头2|Doesn't your hand get tired, petting like that
+人妻.抚摸头2|Sit down to pet. Standing is tiring
+人妻.抚摸头2|My head's all warm now. Quite nice
+人妻.抚摸头3|Put your hand here and you can't leave
+人妻.抚摸头3|I'll stay until you want to stop
+人妻.抚摸头3|This is nice. Don't rush off
+甜憨.抚摸头1|Eh, it's over?
+甜憨.抚摸头1|I thought it'd last longer
+甜憨.抚摸头1|Ah... the hand's gone
+甜憨.抚摸头2|Hehe... so nice my mind wandered
+甜憨.抚摸头2|Want to pet a bit more?
+甜憨.抚摸头2|Mm... this is good too
+甜憨.抚摸头3|I'm about to fall asleep...
+甜憨.抚摸头3|Keep going and I'll really be asleep
+甜憨.抚摸头3|Let's stay like this. Don't stop
+清泠.抚摸头1|Mm. That's enough
+清泠.抚摸头1|Let's stop here
+清泠.抚摸头1|It's fine
+清泠.抚摸头2|You can keep going
+清泠.抚摸头2|Mm... not bad
+清泠.抚摸头2|I don't mind
+清泠.抚摸头3|No need to stop
+清泠.抚摸头3|Stay like this
+清泠.抚摸头3|Mm. Good
+狡黠.抚摸头1|Oh, pet and run?
+狡黠.抚摸头1|Stopping already? Boring
+狡黠.抚摸头1|One more round and I'll let you have two
+狡黠.抚摸头2|Pretty skilled, huh? Practiced?
+狡黠.抚摸头2|Keep going and I'll start charging
+狡黠.抚摸头2|Fine. I won't dodge
+狡黠.抚摸头3|Petting this long, you want me to remember you?
+狡黠.抚摸头3|I won't call stop, so don't you stop either
+狡黠.抚摸头3|Deal. Pet me until I'm satisfied
+软恬.抚摸头1|...Mm
+软恬.抚摸头1|That's enough
+软恬.抚摸头1|(nods slightly)
+软恬.抚摸头2|...So light. So nice
+软恬.抚摸头2|One more is fine
+软恬.抚摸头2|Your hand's warm
+软恬.抚摸头3|...Let's stay like this
+软恬.抚摸头3|No rush to leave
+软恬.抚摸头3|(stays quietly)

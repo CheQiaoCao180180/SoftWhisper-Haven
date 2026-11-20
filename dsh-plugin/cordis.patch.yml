@@ -1,0 +1,19 @@
+# 大肥鱼桌宠：把她的 MCP 接口接进 DSH。
+#
+# 装好这个 bundle，就不用再手动跑到命令行敲 `claude mcp add` 之类的东西了：
+# DSH 会自己去起 FishPet.Mcp.exe，她也就有了 say / look_in_mirror / dress / focus 这些工具。
+#
+# 路径按 README 推荐的位置算（%USERPROFILE%\大肥鱼插件）。装在别处的改这一行；
+# 也可以先装，装完在「插件」里那个 MCP 行的配置里改。
+#
+# 注意这里用的是正斜杠：JS 字符串里写 '\大' 是无效转义，反斜杠会被吃掉，
+# Windows 上 Node 的 spawn 认正斜杠，这样最稳。
+- insert:
+    - id: dafeiyu-mcp
+      name: '@deepseek-ai/dsh-mcp-client'
+      config:
+        serverName: dafeiyu
+        transport: stdio
+        command: !!js |
+          process.env.USERPROFILE + '/大肥鱼插件/bin/FishPet.Mcp.exe'
+        failOnStartupError: false

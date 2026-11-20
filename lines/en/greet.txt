@@ -1,0 +1,109 @@
+// 英文（2026-11-18 翻）：问候。格式：时段|台词|动作
+早上|Morning. Eat a real breakfast today, okay?|微笑 看过来
+早上|You're up? Porridge's in the pot, rice's in the bowl|眯眼笑 微点头
+早上|Look who's up. Morning|挑眉 微笑
+早上|Morning. Water first, then work|竖手指 微笑
+中午|It's noon. Have you eaten?|看过来 微笑
+中午|This hour... time to eat, right?|眯眼笑 晃头
+中午|Go eat lunch properly. Not nagging|微点头 抿嘴
+下午|Afternoon. Get up and stretch a bit|歪一下头 微笑
+下午|Sleepiest hour of the day. Drink some water|微点头 叹气
+下午|You're back? Still half an afternoon left|看过来 微笑
+傍晚|Evening already. You worked hard today|微笑 慢眨眼
+傍晚|What's for dinner? I'll eat with you|歪一下头 眯眼笑
+傍晚|Getting dark. Wrap up today's work|微点头 微笑
+晚上|Evening. How was your day?|看过来 微笑
+晚上|You're back late|歪一下头 抿嘴
+晚上|I've been waiting for you|眯眼笑 慢眨眼
+深夜|Still awake at this hour...|八字眉 看过来
+深夜|It's quiet. I'll keep you company a bit|微笑 慢眨眼
+深夜|Stay up this late and you'll regret it tomorrow|皱眉 微摇头
+病娇.早上|(watches you walk over the whole time)
+病娇.早上|Morning... I've been waiting a long time
+病娇.早上|(keeps watching you come over)
+病娇.中午|I made food. Let's eat together
+病娇.中午|(pushes the bowl toward you)
+病娇.晚上|You came back today too
+病娇.晚上|(smiles a little) I've been counting the hours
+病娇.深夜|So late... who did you go see?
+病娇.深夜|(leans in and sniffs)
+人妻.早上|Breakfast's in the pot. Eat it while it's hot
+人妻.早上|(sets out the bowls)
+人妻.中午|Time to eat
+人妻.中午|(slides the dishes toward you)
+人妻.晚上|You worked hard today too
+人妻.晚上|(hands you a cup of warm water)
+人妻.深夜|Back so late... go take a bath first
+人妻.深夜|(goes to run you hot water)
+傲娇.早上|Hmph. It's not like I was waiting for you
+傲娇.早上|(breakfast is already made)
+傲娇.中午|You didn't even call me for lunch
+傲娇.中午|(actually hasn't touched her chopsticks)
+傲娇.晚上|You're finally back
+傲娇.晚上|(turns her head away)
+傲娇.深夜|Where did you go so late
+傲娇.深夜|(quietly) I was worried, okay
+童真.早上|Good morning!
+童真.早上|(hops once)
+童真.中午|Food food food!
+童真.中午|(holds her bowl up high)
+童真.晚上|You're back!
+童真.晚上|(runs over)
+童真.深夜|So late... play with me?
+童真.深夜|(rubs her eyes)
+幼童.早上|Good morning! Let's play today too|眯眼笑 晃头
+幼童.早上|You're up! I waited forever|快点头×2
+幼童.中午|It's noon—food time!|睁大 看过来
+幼童.下午|Afternoons make me so sleepy...|叹气 半睁
+幼童.傍晚|Getting dark. Don't wander off|歪一下头
+幼童.晚上|It's night. Let's watch the stars|看上面 眯眼笑
+幼童.深夜|Still not sleeping at this hour|嘟嘴 八字眉
+傲娇.早上|...Morning. Not like I waited for you|转头 鼓腮
+傲娇.早上|Oh, you're up. Not bad|斜眼 微点头
+傲娇.中午|It's noon. Don't skip lunch again|挑眉 看过来
+傲娇.下午|Afternoon... you're pretty busy, huh|瞟一眼
+傲娇.傍晚|Getting dark. Go home early|抿嘴 看下面
+傲娇.晚上|Back so late. I wasn't waiting|快摇头×3 脸红
+傲娇.深夜|Hey. Time to sleep|皱眉 竖手指
+病娇.早上|Awake? I've been watching the whole time|微笑 看过来
+病娇.早上|Morning. Today's mine too|眯眼笑 微点头
+病娇.中午|It's noon. Don't wander off|正视 抿嘴
+病娇.下午|Where did you go just now|歪头 看过来
+病娇.傍晚|Getting dark. Time to come back|微笑 站直
+病娇.晚上|Finally back|慢眨眼 微笑
+病娇.深夜|So late. What were you doing|屑屑眼 前倾
+人妻.早上|Morning. Breakfast's ready|微笑 看过来
+人妻.早上|Awake? Then get up, no lazing|微点头 笑眼
+人妻.中午|It's noon. Let's eat first|正视 竖手指
+人妻.下午|Afternoons make you sleepy. Drink some water|微笑 微点头
+人妻.傍晚|It's windy. Put on a jacket on your way back|八字眉 看过来
+人妻.晚上|You're back. Food's still hot|眯眼笑 点头
+人妻.深夜|Still not asleep at this hour|叹气 八字眉
+甜憨.早上|Morning... (yawns)|半睁 微笑
+甜憨.早上|Eh, you're up|睁大 歪一下头
+甜憨.中午|It's noon... what should we eat|歪一下头 眯眼笑
+甜憨.下午|Afternoon... so sleepy...|叹气 半睁
+甜憨.傍晚|It gets dark so fast|看上面 歪一下头
+甜憨.晚上|Evening... hehe|眯眼笑 晃头
+甜憨.深夜|It's late. Still not sleeping|嘟嘴 八字眉
+清泠.早上|Morning
+清泠.早上|You're up
+清泠.中午|Eat
+清泠.下午|...It's afternoon
+清泠.傍晚|It's dark
+清泠.晚上|You're back
+清泠.深夜|Time to sleep
+狡黠.早上|Mornin'. Did you miss me today?|坏笑 挑眉
+狡黠.早上|Oh, you're up|笑眼 晃头
+狡黠.中午|It's noon. Buy me lunch|竖手指 眯眼笑
+狡黠.下午|Sleepy in the afternoon, I bet|斜眼 坏笑
+狡黠.傍晚|It's dark. Don't wander|挑眉
+狡黠.晚上|Back pretty late. Who'd you play with?|屑屑眼 前倾
+狡黠.深夜|Still awake this late. Doing good deeds?|坏笑 歪头
+软恬.早上|...Morning
+软恬.早上|Morning. No need to rush
+软恬.中午|It's noon. Remember to eat
+软恬.下午|...Good afternoon
+软恬.傍晚|It's dark. Head home early
+软恬.晚上|You're back. You worked hard
+软恬.深夜|...Time to sleep

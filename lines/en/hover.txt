@@ -1,0 +1,33 @@
+// 英文（2026-11-18 翻）：鼠标悬停的台词
+悬停头|Boss's hand's hovering over my head... want to pat?
+悬停头|Hm? Want to pat my head?
+悬停头|My hair's really smooth today. Try it
+悬停头|If you want to pat, just pat. I won't dodge|亲密3
+悬停头|Are you measuring my hair volume?
+悬停头|My hair's a bit messy today, isn't it?
+悬停脸|Why are you staring at my face...
+悬停脸|Is there something on my face?
+悬停脸|Being stared at like that makes me shy...
+悬停脸|There's nothing written on my face
+悬停脸|Looking that seriously, huh
+悬停手|High five?
+悬停手|Your hand's out... want to hold it?
+悬停手|Hm? Shaking hands?
+悬停手|If you want to hold hands, just say so
+悬停手|Are you going to drag me around with that mouse?
+悬停身|Hm? Need something, boss?
+悬停身|The mouse has been on me for a while now
+悬停身|Are you watching me?
+悬停身|Boss, you can poke me too, you know|亲密3
+悬停身|If you've got nothing to do, go eat
+悬停身|You've been hovering there a while
+悬停身|Say something. Anything
+悬停裙|This spot... what are you planning?
+悬停裙|Hey, don't get any ideas
+悬停裙|Move the mouse up a bit!
+悬停裙|That position isn't very polite
+悬停尾|My tail's a little nervous...
+悬停尾|Your hand... stay away from my tail!
+悬停尾|You can't do that there
+悬停尾|My tail's trembling, see?
+悬停尾|Over by my tail... are you sure?

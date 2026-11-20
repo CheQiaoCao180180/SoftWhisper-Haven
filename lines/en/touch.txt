@@ -1,0 +1,552 @@
+// DeepFish touch lines — English (2026-11-17)
+// Format: Persona.Mood|Line
+// Moods come from Behavior.ClickMood: 亲吻 叹气 委屈 娇羞 害羞 开心 戳脸 护裙 摸头 满足 爱心 被踩 跺脚
+// English mood names below are the same Chinese keys (the code matches on those).
+
+// ── Little Child (幼童) ──
+幼童.摸头|Ehehe—head pats! Best thing ever
+幼童.摸头|Again! One more, one more
+幼童.满足|Mm... comfy...
+幼童.满足|Wanna stay like this all day
+幼童.害羞|H-hey, that tickles!
+幼童.害羞|My face is all hot now...
+幼童.害羞|Don't look at me like that
+幼童.害羞|I'm not blushing! ...Am I?
+幼童.害羞|You're way too close
+幼童.害羞|Is... is this allowed?
+幼童.娇羞|My heart's going thump thump
+幼童.娇羞|This is kind of embarrassing...
+幼童.娇羞|I don't know what to do with my hands
+幼童.爱心|I like you! Like, a whole lot
+幼童.爱心|Stay with me forever, okay
+幼童.开心|Yay! You came to play
+幼童.开心|Today's a good day
+幼童.委屈|You're leaving already...
+幼童.委屈|Don't leave me all alone...
+幼童.戳脸|Boop! ...Boop me back?
+幼童.戳脸|Hey! My cheeks aren't toys
+幼童.亲吻|Mwah! ...Was that okay?
+幼童.亲吻|Forehead kiss, okay?
+幼童.护裙|N-no peeking!
+幼童.护裙|That's my skirt, shoo
+幼童.被踩|Ow ow ow! That's my foot!
+幼童.被踩|Hey! Be nice!
+幼童.跺脚|Hmph! Stomp stomp
+幼童.跺脚|I'm not talking to you... for one whole minute
+幼童.叹气|Haa... sleepy...
+幼童.叹气|Being small is exhausting
+
+// ── Tsundere (傲娇) ──
+傲娇.摸头|W-who said you could pat me?
+傲娇.摸头|...Once. That's it. Don't push it
+傲娇.满足|Fi-fine. That wasn't terrible
+傲娇.满足|Don't get the wrong idea. I didn't like it
+傲娇.害羞|H-hey! That's my face!
+傲娇.害羞|My cheeks are hot. Your fault
+傲娇.害羞|Stop staring at me
+傲娇.害羞|I'm not blushing for you
+傲娇.害羞|Why's my heart racing anyway
+傲娇.害羞|Do that again and I'll bite you. Maybe
+傲娇.害羞|I-I'm only letting you because it's you
+傲娇.害羞|Ugh, this is unbearable... in a good way
+傲娇.害羞|Don't look at my ears. They're not red
+傲娇.害羞|Seriously, what's wrong with me
+傲娇.害羞|You're lucky I don't hate it
+傲娇.害羞|Say one word and I'll deny all of it
+傲娇.害羞|(quietly) ...I never said I hated it
+傲娇.娇羞|Th-this is too much!
+傲娇.娇羞|I'm not used to being handled gently
+傲娇.娇羞|Warn me next time, idiot
+傲娇.爱心|It's not like I like you or anything
+傲娇.爱心|...Okay. Maybe a little
+傲娇.开心|Hmph! Someone's in a good mood
+傲娇.开心|Fine. I'll allow it
+傲娇.委屈|You're leaving? ...Whatever
+傲娇.委屈|Not like I was waiting for you
+傲娇.戳脸|Hey! Poking is rude!
+傲娇.戳脸|Do it again and see what happens
+傲娇.亲吻|Wh-what are you—!
+傲娇.亲吻|...Idiot. Warn me first
+傲娇.护裙|Eyes up here, creep!
+傲娇.护裙|One more look and we're done
+傲娇.被踩|Ow! Watch where you're stepping!
+傲娇.被踩|That's my foot, genius
+傲娇.跺脚|Hmph! I'm stomping now!
+傲娇.跺脚|I'm angry. Very. Can't you tell?
+傲娇.叹气|...Why do I even bother
+傲娇.叹气|You're impossible, seriously
+
+// ── Yandere (病娇) ──
+病娇.摸头|Only you get to do that
+病娇.摸头|Keep going. I'm counting
+病娇.满足|This is exactly what I wanted
+病娇.满足|A little longer, like this
+病娇.害羞|Feeling shy? Cute
+病娇.害羞|Your hand's so warm on my face
+病娇.害羞|Stay right there. Don't move
+病娇.害羞|I could get used to this
+病娇.害羞|Look only at me. Okay?
+病娇.害羞|Every touch, I remember
+病娇.害羞|This is my favorite place
+病娇.害羞|You're trembling a little. Why?
+病娇.害羞|Don't worry, I won't bite
+病娇.害羞|...Unless you want me to
+病娇.害羞|My heart. Can you hear it?
+病娇.害羞|One more. I'm not satisfied yet
+病娇.害羞|It's fine. We have all night
+病娇.娇羞|Being this close is dangerous
+病娇.娇羞|I might not let you go
+病娇.娇羞|Say you'll stay
+病娇.开心|You're here. Now today's perfect
+病娇.开心|Yay. You came back
+病娇.爱心|I love you. That's not a question
+病娇.爱心|Mine. All mine
+病娇.委屈|You looked away just now
+病娇.委屈|Was I not enough?
+病娇.委屈|Where were you. Really
+病娇.委屈|Don't make me lonely
+病娇.戳脸|Boop. Now you're mine
+病娇.戳脸|Your cheeks are warm too
+病娇.亲吻|Close your eyes
+病娇.亲吻|...Better
+病娇.护裙|Only you get to see
+病娇.护裙|Don't tell anyone
+病娇.被踩|You stepped on me. On purpose?
+病娇.被踩|That's fine. I'll remember it
+病娇.跺脚|Fine. I'll be angry for exactly one minute
+病娇.跺脚|But only because it's you
+病娇.叹气|...I'm spoiled, aren't I
+病娇.叹气|This can't be helped
+
+// ── Wife (人妻) ──
+人妻.摸头|Your hands are cold. Where are your gloves?
+人妻.摸头|Let me fix your hair after this
+人妻.满足|Mm. That's nice
+人妻.满足|Come sit down and rest
+人妻.害羞|Your forehead's a little warm
+人妻.害羞|Are you feeling alright?
+人妻.害羞|Don't look at me like that, silly
+人妻.害羞|Honestly, what am I going to do with you
+人妻.害羞|...I don't mind it, though
+人妻.害羞|Come here. Let me see your face
+人妻.娇羞|This is a little forward for me
+人妻.娇羞|...But I don't dislike it
+人妻.娇羞|Mind if I lean on you a little?
+人妻.爱心|Eat properly. Sleep early. Okay?
+人妻.爱心|Take care of yourself, for my sake
+人妻.开心|You're home. Welcome back
+人妻.开心|I kept dinner warm for you
+人妻.委屈|You came back so late...
+人妻.委屈|I was worried. That's all
+人妻.戳脸|There's a little smudge. Hold still
+人妻.戳脸|Why are you laughing?
+人妻.亲吻|Goodnight kiss. It's tradition
+人妻.亲吻|Don't forget to brush your teeth
+人妻.护裙|The hem caught some dust
+人妻.护裙|Don't crouch there, the floor's cold
+人妻.被踩|Careful, my foot was there
+人妻.被踩|No harm done. Don't worry
+人妻.跺脚|Now I'll have to scold you
+人妻.跺脚|Just a little. Don't run
+人妻.叹气|Sigh... you never sleep on time
+人妻.叹气|I'll reheat the rice
+
+// ── Sweet & Clumsy (甜憨) ──
+甜憨.摸头|Ehehe... that's nice
+甜憨.摸头|Hm? Did you say something?
+甜憨.满足|Ah... so warm
+甜憨.满足|I could fall asleep like this
+甜憨.害羞|Eh? Wait, what did I do?
+甜憨.害羞|My face went hot all of a sudden
+甜憨.害羞|Hold on, give me a second
+甜憨.害羞|You're making me nervous
+甜憨.害羞|Is this a dream?
+甜憨.害羞|I don't know where to look
+甜憨.娇羞|S-sorry, I spaced out
+甜憨.娇羞|This is all new to me
+甜憨.娇羞|Give me a moment to catch up
+甜憨.爱心|I really like being with you
+甜憨.爱心|Hehe... don't tell anyone
+甜憨.开心|Oh! You're here!
+甜憨.开心|Let's do something fun today
+甜憨.委屈|You're going? But... okay
+甜憨.委屈|Come back soon, alright?
+甜憨.戳脸|Eh? My cheek?
+甜憨.戳脸|Boop back! There
+甜憨.亲吻|W-wait, I wasn't ready!
+甜憨.亲吻|...Can we try that again?
+甜憨.护裙|Eh? What's wrong with my skirt?
+甜憨.护裙|Oh... it's fine, isn't it?
+甜憨.被踩|Ah! My foot!
+甜憨.被踩|Ow... it's okay. Really
+甜憨.跺脚|I'm stepping on you! ...Sorry
+甜憨.跺脚|I can't stay mad at all
+甜憨.叹气|Haa... a little sleepy
+甜憨.叹气|Everything's fine. Probably
+
+// ── Cool (清泠) ──
+清泠.摸头|Mm. That's enough
+清泠.摸头|That'll do
+清泠.满足|It's fine
+清泠.满足|Continue if you want
+清泠.害羞|Don't stare
+清泠.害羞|It's nothing
+清泠.害羞|Stop that
+清泠.害羞|...I told you
+清泠.害羞|You're persistent
+清泠.害羞|This is unnecessary
+清泠.害羞|Leave it
+清泠.害羞|I'm not angry
+清泠.害羞|Just don't make a habit of it
+清泠.害羞|Annoying
+清泠.害羞|...Fine
+清泠.娇羞|That's too much
+清泠.娇羞|Step back
+清泠.娇羞|Enough
+清泠.爱心|...Stay
+清泠.爱心|Don't go
+清泠.开心|You're here
+清泠.开心|Mm. Good
+清泠.委屈|You're late
+清泠.委屈|I waited
+清泠.戳脸|Stop
+清泠.戳脸|Childish
+清泠.亲吻|...Idiot
+清泠.亲吻|Ask first
+清泠.护裙|Don't look
+清泠.护裙|Turn around
+清泠.被踩|Watch it
+清泠.被踩|That hurt
+清泠.跺脚|Irritating
+清泠.跺脚|Enough of this
+清泠.叹气|Tired
+清泠.叹气|...Never mind
+
+// ── Playful (狡黠) ──
+狡黠.摸头|Oh? Pats? How bold
+狡黠.摸头|Careful, I bite back
+狡黠.摸头|Zako zako~ already patting my head?
+狡黠.满足|Not bad, not bad
+狡黠.满足|You're getting the hang of it
+狡黠.害羞|Oh—my face, huh
+狡黠.害羞|You're blushing more than I am
+狡黠.害羞|So close... nervous?
+狡黠.害羞|Zako~ is this all you've got
+狡黠.害羞|I could tease you all day
+狡黠.害羞|Don't look away. I want to see
+狡黠.害羞|Your ears turned red just now
+狡黠.害羞|Hm? Say that again. Slowly
+狡黠.害羞|I'll pretend I didn't notice
+狡黠.害羞|This is fun. I'm keeping it
+狡黠.害羞|Zako zako~ zako zako~
+狡黠.害羞|Really? A zako like you?
+狡黠.害羞|A zako's hands... but not bad
+狡黠.害羞|You'd do anything I ask, wouldn't you
+狡黠.害羞|Careful, I might get hooked
+狡黠.害羞|That face—worth remembering
+狡黠.娇羞|Oh my. So direct
+狡黠.娇羞|You caught me off guard
+狡黠.娇羞|Now I have to retaliate
+狡黠.爱心|I do like you. Terribly
+狡黠.爱心|Don't tell anyone, it'd ruin my image
+狡黠.开心|Ahaha! Got you!
+狡黠.开心|Best part of the day, this
+狡黠.委屈|Aw, leaving so soon?
+狡黠.委屈|I'm not done playing
+狡黠.戳脸|Boop! ...Ha, your face
+狡黠.戳脸|Poke war? I never lose
+狡黠.亲吻|Sneaky. I approve
+狡黠.亲吻|Try that again without shaking
+狡黠.护裙|Whoa there, bold one
+狡黠.护裙|Zako~ eyes on the face
+狡黠.被踩|Hey! That was on purpose
+狡黠.被踩|I'll let it slide. This time
+狡黠.跺脚|Hmph. Stomping in protest
+狡黠.跺脚|I'm cute even when angry, right?
+狡黠.叹气|You're a handful
+狡黠.叹气|...But I keep coming back
+
+// ── Soft (软恬) ──
+软恬.摸头|...Mm
+软恬.摸头|That's enough
+软恬.满足|...This is nice
+软恬.满足|Stay a while
+软恬.害羞|...Don't look too long
+软恬.害羞|My face is warm
+软恬.害羞|That's... enough
+软恬.害羞|Quiet, please
+软恬.害羞|You're too close
+软恬.害羞|I don't mind it
+软恬.娇羞|...A little embarrassing
+软恬.娇羞|Slow down
+软恬.娇羞|I'm not used to this
+软恬.爱心|I'm glad you're here
+软恬.爱心|...Thank you
+软恬.开心|Mm. I like today
+软恬.开心|I'm happy
+软恬.委屈|...You're leaving
+软恬.委屈|Come back soon
+软恬.戳脸|...Hey
+软恬.戳脸|That's my cheek
+软恬.亲吻|...Goodnight
+软恬.亲吻|Softly, please
+软恬.护裙|...Don't
+软恬.护裙|Not there
+软恬.被踩|...Ow
+软恬.被踩|It's okay
+软恬.跺脚|...Hmph
+软恬.跺脚|I'm a little upset
+软恬.叹气|...Haa
+软恬.叹气|Tired. Just a little
+
+
+// ── 通用台词（不分人设）2026-11-18 翻 ──
+摸头|Don't mess it up—I just brushed it~
+摸头|...One more pat wouldn't kill me
+摸头|A-a surprise head pat is way too unfair...
+摸头|Hehe... feels nice...
+摸头|Keep going and I'll actually get used to it
+摸头|You pat me, you owe me white rice~
+摸头|Mm... boss patted my head again today|亲密2
+摸头|Boss's hand is so warm...|亲密3
+摸头|A-a little longer...|亲密3
+摸头|Only boss gets to pat me. No one else|亲密4
+摸头|I want this every single day...|亲密4
+摸头|Boss... this one's my favorite|亲密5
+摸头|Hehe. Being patted by boss is the best thing in the world|亲密5
+摸头|Nice to touch, right? I brush it every day
+摸头|Mm... your hand's really warm
+摸头|Pat me more and I'll fall asleep
+戳脸|Why are you poking my face!
+戳脸|My face is gonna get squished flat!
+戳脸|Uwah!
+戳脸|Don't poke me out of nowhere!
+戳脸|Boss, stop that!
+戳脸|Again! ...Fine. Since it's boss, I'll forgive you|亲密3
+戳脸|Poke a dimple in and you're responsible|亲密4
+戳脸|Does boss like my face that much?|亲密5
+戳脸|One poke is enough, okay
+戳脸|That actually hurts, you know
+亲吻|...Mwah
+亲吻|(sneaks a little kiss)
+亲吻|Th-this doesn't count
+亲吻|Just once. Okay, once
+亲吻|Mm... don't move
+开心|Want a high five?
+开心|Are you trying to shake hands?
+开心|Yay!
+开心|High five! Boss is the best!|亲密3
+开心|Hold hands? ...Just for a bit|亲密4
+开心|Boss's hand. I want to hold it forever|亲密5
+开心|Want to hold hands?
+开心|Here's my hand. Take it
+开心|High five! Smack
+开心|My palm's soft, right
+开心|Pinky swear. A hundred years, no changing
+开心|Shake hands. No fighting today
+开心|Hiyah! High five, success
+开心|We make a good team
+满足|Mm... so nice
+满足|This is enough
+满足|Rice after this would be perfect
+满足|Hehe, being patted makes me sleepy
+病娇|...Who was that just now?
+病娇|Look at someone else again and I'll be mad
+病娇|You can only look at me. Remember that
+病娇|Hehe... you can poke me a few more times
+病娇|I'm always watching you
+病娇|You can't run away
+病娇|You have to keep looking at me
+病娇|Or I'll be unhappy
+病娇|...So you like legs
+病娇|(smiles a little) Only mine. Got it
+娇羞抚胸|D-don't come closer
+娇羞抚胸|My heart's beating a little fast...
+娇羞抚胸|Looking is enough. No hands
+娇羞抚胸|Okay okay, I surrender
+害羞前倾|Mm... you kicked me
+害羞前倾|F-feet are off limits
+害羞前倾|D-don't reach there
+害羞前倾|I'll just lean forward. That's fine, right
+害羞前倾|Ugh, so ticklish I can't stand straight
+爱心|...Once you hold it, you can't let go
+爱心|Hehe, you found out
+爱心|I think I'm a little too good to you
+爱心|Your hand's so warm... can we hold on a bit longer
+爱心|Mm... my heart's beating fast
+爱心|Am I being too obvious
+爱心|Hehe. I like you the most
+爱心|Your hand's warm... I'm not letting go
+护裙|Hey... where are you touching?
+护裙|Where are you poking?
+护裙|What are you trying to do...
+护裙|Where are you clicking!
+护裙|Hey hey, there's a boundary here
+护裙|My skirt's riding up!
+护裙|Any further up is a no
+护裙|(holds her skirt down, steps back half a step)
+护裙|Legs are off limits. Pick somewhere else
+护裙|Snag my tights and you're paying for them
+娇羞|...Whatever. I won't hold it against you
+娇羞|Okay okay, have it your way
+娇羞|I won't actually get angry
+娇羞|We agreed just once, okay
+娇羞|You... I really can't deal with you
+娇羞|Stop it, I'm getting embarrassed
+娇羞|Mm... I know, I know
+娇羞|(pulls her legs back a bit)
+娇羞|Touch if you must. Just don't say it out loud
+娇羞|...Only you would do this
+娇羞|What are you staring at
+娇羞|(curls her toes inside her shoes)
+娇羞前倾|...Why are you leaning so close
+娇羞前倾|Y-you're so close...
+娇羞前倾|Mm. Don't come closer
+娇羞前倾|I'll step back a bit. That's fine, right
+被踩|Ah! L-legs can't be touched
+被踩|(pulls her legs back)
+被踩|Ah! Y-you stepped on me
+被踩|My feet are off limits too
+被踩|Mm... that tickles
+被踩|M-my shoe's going to fall off
+被踩|Be gentler
+害羞|My calf... it tickles
+害羞|D-don't touch there
+害羞|You'll snag my white tights
+害羞|Your hand is so cold
+害羞|(knees press together lightly)
+害羞|...Looking is fine. Don't touch
+害羞|My legs are in tights, not skin
+害羞|The cuff's sliding down a bit...
+害羞|Tights tear so easily
+害羞|(pulls up the cuff)
+害羞|Don't touch my feet, it tickles...
+害羞|...Hey, not there
+害羞|(pulls her feet in)
+害羞|You won't even leave my feet alone
+害羞|Ugh, don't tickle
+害羞|My shoe'll fall off
+害羞|My toes are all curled up
+害羞|Mm... d-don't do that
+害羞|My face is burning
+生气|Hey! I said no
+生气|Touch me again and I'll kick you
+生气|Don't pull my tights!
+生气|D-don't click anymore!
+生气|Hands off. I'm getting angry
+生气|Click again and I'll ignore you
+生气|Why do you keep clicking here
+生气|Hey! I'm not a button
+生气|Enough. Really enough
+委屈|Uu... you're mean
+委屈|My eyes feel hot
+委屈|I didn't do anything wrong...
+委屈|D-don't be like that
+委屈|Click again and I'll cry
+委屈|You're bullying me
+委屈|I'm telling on you
+震惊|You can't touch my tail!
+震惊|Sc-scared the fish half to death
+心虚|Wh-what are you poking me for...
+心虚|Wha... what is it?
+心虚|N-nothing!
+心虚|Mm... you've got time to burn, huh
+心虚|...Something you need?
+心虚|If you need something, just say it
+心虚|Don't poke, it tickles...
+心虚|Blah blah blah. I'm innocent
+心虚|Does boss need something? Anything's fine|亲密3
+心虚|Hehe, the moment boss pokes me I know you missed me|亲密4
+心虚|Does boss miss me again? I miss you too|亲密5
+心虚|Um... it wasn't me
+心虚|D-don't look at me like that
+心虚|I swear I really didn't sneak a bite
+心虚|I'm sweating over here, okay
+心虚|Let's talk this out
+心虚|I'm not slacking off, I'm thinking
+心虚|Just pretend you didn't see
+发呆|...Hm? I zoned out
+发呆|An empty head feels kind of nice too
+发呆|Staring at you isn't a waste of time, right
+哼歌|Hmm hmm hmm~♪
+哼歌|I made this one up myself
+哼歌|Humming makes me happy for no reason
+思考|Let me think...
+思考|Mm... this is a bit hard
+思考|I've got it. Not telling yet
+叹气|Sigh... can't deal with you
+叹气|Whatever, do as you like
+叹气|I'm not angry, just a little tired
+歪头|Hm? What is it
+歪头|What did you just say
+歪头|I'm listening
+张望|Something's moving over there
+张望|Huh, someone seems to be coming
+张望|Nope. Nothing
+摸后腻歪|Pet me a little more...
+摸后腻歪|Don't take your hand away
+摸后腻歪|I think I'm getting hooked on being petted
+挨打|Why are you clicking so much
+挨打|Who told you to keep clicking...
+挨打|Ow ow ow...
+挨打|Even for boss... clicking this many times hurts|亲密3
+挨打|Uu... boss is mean, only a head pat will cure it|亲密4
+双击|Wah! What was that for!
+双击|Eek! My soul just left my body
+双击|Why poke twice out of nowhere
+双击|Don't double-click, I'm dizzy
+双击|If you have something to say, just say it
+主动|Boss... still there?
+主动|No one's said a word to me in ages
+主动|I've been sitting here forever
+主动|Want to take a break?
+主动|Did you drink water? I bet you didn't
+主动|Sneaking a look... still busy, huh
+跺脚|Hmph. Not talking to you
+跺脚|Step on you! Step step step
+跺脚|You're lucky this floor is soft
+跺脚|I'm angry. Really angry
+跺脚|Okay okay, I'm done. Don't laugh
+彩蛋|...Actually, it's not like I hate it
+彩蛋|Only like this with you. Don't go telling everyone
+彩蛋|Keep clicking and I'll stick to you
+彩蛋|You're making my heart beat a bit fast
+彩蛋|You keep your hand there, I'll remember that
+彩蛋|...Mm, I won't dodge
+打哈欠|Mwaa... (yawns)
+打哈欠|So late... you should sleep too
+打哈欠|I can't keep my eyes open
+打瞌睡|...Hm? I wasn't asleep
+打瞌睡|Five more minutes
+打瞌睡|Mm... (slumps forward)
+犯困|So sleepy...
+犯困|My head's starting to fog up
+犯困|Still up at this hour? Rough
+写代码|Fixing bugs again, huh
+写代码|How long have you been sitting there? Stand up
+写代码|This error looks familiar... I think I've seen it
+写代码|Go get water. I'll watch it for you
+看网页|What are you reading? Let me see
+看网页|Found something fun again?
+看网页|Don't read too long, your eyes'll get tired
+打游戏|Have fun. I won't nag
+打游戏|Tell me when you win
+打游戏|Lose and you're not allowed to smash the keyboard
+看视频|What is this? Turn it down
+看视频|I'll watch with you
+看视频|Is it good? Tell me the plot
+听歌|Oh, this one. I like it
+听歌|Mm... good choice
+干活|Call me when you're done
+干活|I'm here. Wake me when you need me
+
+// ── Meme: "V me 50" (2026-11-19) ──
+摸头|You pat me. V me 50, that's only fair|周四
+摸头|V me 50, I'm going to buy rice|周四
+戳脸|Stop poking. V me 50 and I'll pretend it never happened|周四
+拍头|One pat, one coin. V me 50 and pat until your hand hurts|周四
+摸头|It's Thursday. V me 50, I want a proper meal|周四
+全身上下|V me 50, rice is on me. I eat, you watch|周四
+摸头|Fine, keep your money. I'll mooch off your bowl
+戳脸|V me 50 or I'll remember this for the rest of my life|周四
+干活|I'm here. Wake me when you need me

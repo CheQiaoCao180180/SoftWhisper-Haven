@@ -1,0 +1,80 @@
+# 各人自己下载的东西，不随插件分享
+sdk/**
+!sdk/下载SDK.md
+model/**
+!model/获取模型.md
+
+# 本机编译和运行出来的东西
+renderer/build/
+bin/
+src/**/bin/
+src/**/obj/
+tray/**/bin/
+tray/**/obj/
+tray/app/
+cache/
+check/
+settings.json
+errors.log
+api.json
+*.old
+*.tmp
+*.bad
+
+# 每个人自己的大肥鱼：羁绊、记忆小本本（都只存在本机，绝不上传）
+affection.json
+memory.json
+memory-archive.json
+
+# 托盘控制台自己记的
+tray/config.json
+tray/ui.json
+
+# hook 的本机记录
+hooks/**/hook.log
+hooks/**/sessions.json
+
+# 各人 Agent 在这个文件夹里的配置（里面有本机路径）
+.codex/
+.cursor/
+.claude/
+
+# 本机的记忆视图和变更记录、开发用录制和草稿（里面有用户自己的事或本机路径）
+memory.md
+memory-log.jsonl
+record/
+dev/
+
+# 语音包和语音生成工具只留在本机，不上传（2026-11-11）
+voice/
+voice/ref/
+tools/
+启动语音服务.bat
+tray/tray.log
+
+# 本机加（2026-11-18）：这几样只留给自己，不随仓库分发
+docs/踩坑记录.md
+踩坑记录.md
+audio/voices/
+audio/tts-venv/
+audio/jimu-samples/
+audio/__pycache__/
+*.bak-*
+*.bak
+lines/*.bak
+gifs/
+music/
+refs/
+logs/
+
+# 本机加（2026-11-18）：日志和对比音频，不进仓库
+audio/*.log
+audio/*.err.log
+audio/gen*.log
+audio/对比-*.mp3
+*.log
+
+schedule.json
+audio/voices-orig/
+.cache/
+dist/

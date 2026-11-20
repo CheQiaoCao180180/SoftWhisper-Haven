@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "DeepFish desktop pet",
+    "description": "Connects the DeepFish desktop pet's MCP server to DSH, so she can talk on your desktop, make faces, change outfits, and sit with you while you focus.",
+    "detail": "docs/DETAIL.md"
+  }
+}
